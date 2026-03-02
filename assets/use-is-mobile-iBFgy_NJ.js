@@ -1,0 +1,1 @@
+import{b as e}from"./index-BNC_TFrd.js";function a(){const i=e("(pointer: coarse)",void 0,{getInitialValueInEffect:!1}),s=e("(max-width: 36em)",void 0,{getInitialValueInEffect:!1});return i||s}export{a as u};
