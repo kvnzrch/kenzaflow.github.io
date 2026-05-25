@@ -1,0 +1,1 @@
+import{En as e}from"./insecure-stubs-CdI3zfMR.js";function t(){let t=e(`(pointer: coarse)`,void 0,{getInitialValueInEffect:!1}),n=e(`(max-width: 36em)`,void 0,{getInitialValueInEffect:!1});return t||n}export{t};

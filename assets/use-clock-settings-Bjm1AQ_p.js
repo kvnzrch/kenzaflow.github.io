@@ -1,0 +1,1 @@
+import{xn as e}from"./insecure-stubs-CdI3zfMR.js";function t(){let[t,n]=e({key:`settings-clock-show-seconds`,defaultValue:!1,getInitialValueInEffect:!1});return{showSeconds:t,setShowSeconds:n}}export{t};
