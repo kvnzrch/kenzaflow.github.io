@@ -1,0 +1,31 @@
+import{$ as e,Ht as t,Vn as n,Wn as r,ct as i,ft as a,gt as o,ht as s,mt as c,qn as l}from"./insecure-stubs-DrOFAuVo.js";import{t as u}from"./use-computed-color-scheme-CpKish81.js";import{i as d,n as f,o as p,t as m}from"./use-manifest-BwDfp4wm.js";import{t as h}from"./Group-1xdbA0Al.js";import{t as g}from"./Divider-mi4vfKpS.js";import{t as _}from"./TextInput-BBkrEKs5.js";import{t as v}from"./createReactComponent-BXfjVGKF.js";import{t as y}from"./IconPlus-CM9BxZX-.js";import{a as b,n as x,o as S}from"./app-CfRPysaC.js";import{t as C}from"./dist-DLe8Im6w.js";var w=v(`outline`,`device-floppy`,`DeviceFloppy`,[[`path`,{d:`M6 4h10l4 4v10a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2`,key:`svg-0`}],[`path`,{d:`M10 14a2 2 0 1 0 4 0a2 2 0 1 0 -4 0`,key:`svg-1`}],[`path`,{d:`M14 4l0 4l-6 0l0 -4`,key:`svg-2`}]]),T=v(`outline`,`folder-open`,`FolderOpen`,[[`path`,{d:`M5 19l2.757 -7.351a1 1 0 0 1 .936 -.649h12.307a1 1 0 0 1 .986 1.164l-.996 5.211a2 2 0 0 1 -1.964 1.625h-14.026a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2h4l3 3h7a2 2 0 0 1 2 2v2`,key:`svg-0`}]]),E=v(`outline`,`package`,`Package`,[[`path`,{d:`M12 3l8 4.5l0 9l-8 4.5l-8 -4.5l0 -9l8 -4.5`,key:`svg-0`}],[`path`,{d:`M12 12l8 -4.5`,key:`svg-1`}],[`path`,{d:`M12 12l0 9`,key:`svg-2`}],[`path`,{d:`M12 12l-8 -4.5`,key:`svg-3`}],[`path`,{d:`M16 5.25l-8 4.5`,key:`svg-4`}]]),D=l(r(),1),O=n(),k=`<div class="grid justify-items-center items-center w-full h-full gap-12">
+    <button class="cursor-pointer transition-all bg-blue-500 text-white px-6 py-2 rounded-lg border-blue-600 border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px] active:border-b-[2px] active:brightness-90 active:translate-y-[2px]">
+        Botón
+    </button>
+</div>`,A=`html {
+    color-scheme: light dark;
+}
+
+body {
+    height: 100dvh;
+}`,j=``,M=[`https://unpkg.com/@tailwindcss/browser@4`];function N(){return(0,O.jsx)(O.Fragment,{children:(0,O.jsx)(F,{})})}function P(e){return{".js":`javascript`,".jsx":`javascript`,".mjs":`javascript`,".ts":`typescript`,".tsx":`typescript`,".json":`json`,".html":`html`,".htm":`html`,".css":`css`,".md":`markdown`,".mdx":`markdown`,".xml":`xml`,".yaml":`yaml`,".yml":`yaml`}[e.toLowerCase().match(/\.[^./]+$/)?.[0]??``]??`plaintext`}function F(){let[n,r]=(0,D.useState)({"index.html":{name:`index.html`,language:`html`,value:k},"style.css":{name:`style.css`,language:`css`,value:A},"script.js":{name:`script.js`,language:`javascript`,value:j}}),[l,v]=(0,D.useState)(M),[N,F]=(0,D.useState)(`index.html`),I=(0,D.useMemo)(()=>n[N],[n,N]),L=u(),R=m(`vscode`);(0,D.useEffect)(()=>S.registerTarget(`application/x-os-file`,{selector:`body`,onDrop:async(e,t)=>{let n=String(t.path??``);if(n)try{let e=await b.readText(n),t=P(n);(0,D.startTransition)(()=>{r(r=>({...r,[n]:{name:n,language:t,value:e}})),F(n)})}catch(e){console.warn(`vscode drop failed`,e)}}}),[]);let z=(0,D.useMemo)(()=>{let e=n[`index.html`].value,t=n[`style.css`].value,r=n[`script.js`].value,i=`
+
+    <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Document</title>
+            <style>
+                ${t}
+            </style>
+            ${l.map(e=>`<script src="${e}"><\/script>`).join(``)}
+        </head>
+        <body>
+        ${e}
+        <script>
+          ${r}
+        <\/script>
+        </body>
+        </html>
+    `;return new Blob([i],{type:`text/html`})},[n,l]),B=d(),V=(0,D.useMemo)(()=>!B.taskIsOpen(`launcher`)&&!B.taskIsMinimized(`vscode`),[B]);return(0,O.jsx)(O.Fragment,{children:(0,O.jsxs)(t,{display:`grid`,style:{gridTemplateRows:`auto 1fr`},pos:`absolute`,left:0,right:0,top:0,bottom:0,children:[(0,O.jsxs)(h,{gap:0,children:[(0,O.jsx)(t,{p:`xs`,children:(0,O.jsx)(f,{manifest:R})}),(0,O.jsxs)(h,{gap:16/2,children:[(0,O.jsx)(i,{size:`compact-xs`,variant:`light`,leftSection:(0,O.jsx)(T,{width:`1rem`,height:`1rem`}),style:{pointerEvents:`auto`},onClick:async()=>{let e=await x.openFile({startIn:`/home/Documents`});if(!e)return;let t=await b.readText(e),n=P(e);(0,D.startTransition)(()=>{r(r=>({...r,[e]:{name:e,language:n,value:t}})),F(e)})},children:`Abrir`}),(0,O.jsx)(i,{size:`compact-xs`,variant:`light`,leftSection:(0,O.jsx)(w,{width:`1rem`,height:`1rem`}),style:{pointerEvents:`auto`},onClick:async()=>{let e=n[N];if(!e)return;let t=N.startsWith(`/`)?N:null;!t&&(t=await x.saveFile({startIn:`/home/Documents`,defaultName:e.name||`untitled.txt`}),!t)||await b.writeText(t,e.value)},children:`Guardar`}),(0,O.jsxs)(c,{children:[(0,O.jsx)(s,{children:(0,O.jsx)(i,{size:`compact-xs`,variant:`light`,leftSection:(0,O.jsx)(E,{width:`1rem`,height:`1rem`}),style:{pointerEvents:`auto`},children:l.length})}),(0,O.jsx)(o,{children:(0,O.jsxs)(e,{p:`md`,children:[(0,O.jsx)(g,{label:`Dependencias`,labelPosition:`center`}),l.map(e=>(0,O.jsxs)(h,{gap:`xs`,display:`grid`,style:{gridTemplateColumns:`1fr auto`},children:[(0,O.jsx)(_,{miw:`100%`,readOnly:!0,value:e}),(0,O.jsx)(a,{size:`md`,variant:`light`,onClick:()=>{(0,D.startTransition)(()=>{v(t=>t.filter(t=>t!==e))})},style:{pointerEvents:`auto`},children:(0,O.jsx)(p,{width:`1rem`,height:`1rem`})})]},e)),(0,O.jsx)(g,{label:`Agregar dependencia`,labelPosition:`center`}),(0,O.jsxs)(h,{gap:`xs`,display:`grid`,style:{gridTemplateColumns:`1fr auto`},children:[(0,O.jsx)(_,{miw:`100%`}),(0,O.jsx)(a,{size:`md`,variant:`light`,onClick:()=>{},style:{pointerEvents:`auto`},children:(0,O.jsx)(y,{width:`1rem`,height:`1rem`})})]})]})})]}),Object.keys(n).map(e=>(0,O.jsx)(i,{size:`compact-xs`,variant:N===e?`light`:`subtle`,onClick:()=>F(e),style:{pointerEvents:`auto`},children:e},e))]})]}),(0,O.jsx)(t,{w:`100%`,h:`100%`,style:{pointerEvents:`auto`},children:(0,O.jsxs)(t,{w:`100%`,h:`100%`,display:`grid`,style:{gridTemplateColumns:`1fr 300px`},children:[V?(0,O.jsx)(O.Fragment,{children:(0,O.jsx)(C,{theme:L===`light`?`light`:`vs-dark`,path:I.name,language:I.language,value:I.value,onChange:e=>{(0,D.startTransition)(()=>{r({...n,[N]:{...I,value:e||``}})})}})}):null,(0,O.jsx)(t,{src:URL.createObjectURL(z),w:`100%`,h:`100%`,component:`iframe`,title:`Vista previa`,style:{border:`none`,background:`transparent`}})]})})]})})}export{N as default};
