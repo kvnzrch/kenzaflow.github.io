@@ -1,1 +1,0 @@
-import{bn as e}from"./insecure-stubs-Bn-36cEQ.js";var t=`settings-terminal-solid-bg`,n=`#0b0b0b`;function r(){let[n,r]=e({key:t,defaultValue:!0,getInitialValueInEffect:!1});return{solidBg:n,setSolidBg:r}}export{r as n,n as t};
