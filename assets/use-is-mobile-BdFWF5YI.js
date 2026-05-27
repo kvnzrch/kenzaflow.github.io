@@ -1,0 +1,1 @@
+import{Tn as e}from"./insecure-stubs-Bn-36cEQ.js";function t(){let t=e(`(pointer: coarse)`,void 0,{getInitialValueInEffect:!1}),n=e(`(max-width: 36em)`,void 0,{getInitialValueInEffect:!1});return t||n}export{t};
